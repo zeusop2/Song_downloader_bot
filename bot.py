@@ -60,7 +60,7 @@ class Chat:
         self.message_id = msg['message_id']
 
         self.messages = {
-            'start':'♡ӇЄԼԼƠ🥀, '+ self.user_name +'!\n\n'
+            'start':'♡ӇЄԼԼƠ🥀https://telegra.ph/file/d0e7a6589a6aa70c3fd02.jpg, '+ self.user_name +'!\n\n'
                     '💫 ғɪɴᴅ ʏᴏᴜʀ sᴏɴɢ:\n\n'
                     '"*/music* _song name_"  or\n'
                     '"*/music* _ᴏʀ sᴏɴɢ ʟɪɴᴋ - song name_"\n\n'
@@ -104,7 +104,7 @@ class Chat:
 
         min_duration, split_count = Music.get_duration(self, result)
 
-        if int(min_duration) < 160 and split_count < 3:
+        if int(min_duration) < 30 and split_count < 3:
             file_name = Music.get_title(self, result) +' - @Arcane_song_bot '+str(randint(0,999999))+'.mp3'
             file_name = file_name.replace('"', '')
 
