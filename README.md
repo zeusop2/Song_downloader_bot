@@ -41,3 +41,7 @@
 ## ♡ Deploy on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zeusop02/Song_downloder_bot)
+
